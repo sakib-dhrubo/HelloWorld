@@ -39,7 +39,7 @@ namespace Practice
             //}
 
             #endregion
-            
+
             #region 9 Mar 2020 - Takes a number, adds them and shows
             //Console.WriteLine("Enter your first number here:");
             //string first = Console.ReadLine();
@@ -99,42 +99,42 @@ namespace Practice
 
             #region 9 Mar 2020 - Asks how many numbers to take. Takes them then asks what to do with them? +,-,*,/. Then does them and shows
 
-            //Console.WriteLine("How many numbers do you want to operate?");
-            //string a = Console.ReadLine();
+            Console.WriteLine("How many numbers do you want to operate?");
+            string a = Console.ReadLine();
 
-            //Console.WriteLine("What to do with them? +,-,*,/:");
-            //string operation = Console.ReadLine();
+            Console.WriteLine("What to do with them? +,-,*,/:");
+            string operation = Console.ReadLine();
 
-            //int sum = 0;
+            int sum = 0;
 
-            //if (int.TryParse(a, out int times))
-            //{
-            //    for (int i = 1; i <= times; i++)
-            //    {
-            //        Console.WriteLine($"Enter {i}th number:");
+            if (int.TryParse(a, out int times))
+            {
+                for (int i = 1; i <= times; i++)
+                {
+                    Console.WriteLine($"Enter {i}th number:");
 
-            //        string b = Console.ReadLine();
+                    string b = Console.ReadLine();
 
-            //        if (int.TryParse(b, out int value))
-            //        {
-            //            if (operation == "+")
-            //            {
-            //                sum = sum + value;
-            //            }
-            //            else if (operation == "-")
-            //            {
-            //                sum = sum - value;
-            //            }
+                    if (int.TryParse(b, out int value))
+                    {
+                        if (operation == "+")
+                        {
+                            sum = sum + value;
+                        }
+                        else if (operation == "-")
+                        {
+                            sum = sum - value;
+                        }
 
-            //        }
-            //    }
+                    }
+                }
 
-            //    Console.WriteLine($"\nSum:{sum}");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Sorry Sir.");
-            //}
+                Console.WriteLine($"\nSum:{sum}");
+            }
+            else
+            {
+                Console.WriteLine("Sorry Sir.");
+            }
 
             #endregion
 
