@@ -148,14 +148,21 @@ namespace Practice
 
             #region 9 Mar 2020: Take a random number as input then ask which number to detect for count. Take that number as input then show if it exists in that number.
 
-            Console.WriteLine("Enter a number for recurrance checking:");
+            Console.WriteLine("Enter text for checking:");
 
             string a = Console.ReadLine();
 
-            Console.WriteLine("Enter a number to check if it exists:");
+            Console.WriteLine("Enter a text to check if it exists:");
 
             string b = Console.ReadLine();
-
+            if (a.Contains(b))
+            {
+                Console.WriteLine("This text exists here");
+            }
+            else
+            {
+                Console.WriteLine("Invalid text");
+            }
 
             #endregion
 
