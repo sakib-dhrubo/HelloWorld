@@ -97,44 +97,65 @@ namespace Practice
 
             #endregion
 
-            #region 9 Mar 2020 - Asks how many numbers to take. Takes them then asks what to do with them? +,-,*,/. Then does them and shows
+            #region 9 Mar 2020 - Asks how many numbers to take. Takes them then asks what to do with them? +,-,*. Then does them and shows
 
-            Console.WriteLine("How many numbers do you want to operate?");
+            //Console.WriteLine("How many numbers do you want to operate?");
+            //string a = Console.ReadLine();
+
+            //Console.WriteLine("What to do with them? +,-,*:");
+            //string operation = Console.ReadLine();
+
+            //int sum = 0;
+
+            //if (int.TryParse(a, out int times))
+            //{
+            //    for (int i = 1; i <= times; i++)
+            //    {
+            //        Console.WriteLine($"Enter {i}th number:");
+
+            //        string b = Console.ReadLine();
+
+            //        if (int.TryParse(b, out int value))
+            //        {
+            //            if (operation == "+")
+            //            {
+            //                sum = sum + value;
+            //            }
+            //            else if (operation == "-")
+            //            {
+            //                sum = sum - value;
+            //            }
+            //            else if (operation == "*")
+            //            {
+            //                if (sum == 0 && i == 1)
+            //                {
+            //                    sum = 1;
+            //                }
+
+            //                sum = sum * value;
+            //            }
+            //        }
+            //    }
+
+            //    Console.WriteLine($"\nSum:{sum}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Sorry Sir.");
+            //}
+
+            #endregion
+
+            #region 9 Mar 2020: Take a random number as input then ask which number to detect for count. Take that number as input then show if it exists in that number.
+
+            Console.WriteLine("Enter a number for recurrance checking:");
+
             string a = Console.ReadLine();
 
-            Console.WriteLine("What to do with them? +,-,*,/:");
-            string operation = Console.ReadLine();
+            Console.WriteLine("Enter a number to check if it exists:");
 
-            int sum = 0;
+            string b = Console.ReadLine();
 
-            if (int.TryParse(a, out int times))
-            {
-                for (int i = 1; i <= times; i++)
-                {
-                    Console.WriteLine($"Enter {i}th number:");
-
-                    string b = Console.ReadLine();
-
-                    if (int.TryParse(b, out int value))
-                    {
-                        if (operation == "+")
-                        {
-                            sum = sum + value;
-                        }
-                        else if (operation == "-")
-                        {
-                            sum = sum - value;
-                        }
-                            
-                    }
-                }
-
-                Console.WriteLine($"\nSum:{sum}");
-            }
-            else
-            {
-                Console.WriteLine("Sorry Sir.");
-            }
 
             #endregion
 
