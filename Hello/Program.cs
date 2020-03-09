@@ -155,13 +155,14 @@ namespace Practice
             Console.WriteLine("Enter a text to check if it exists:");
 
             string b = Console.ReadLine();
+
             if (a.Contains(b))
             {
-                Console.WriteLine("This text exists here");
+                Console.WriteLine($"\t\'{b}\' exists in here.");
             }
             else
             {
-                Console.WriteLine("Invalid text");
+                Console.WriteLine($"\t\'{b}\' doesn't exist in here.");
 
             }
 
