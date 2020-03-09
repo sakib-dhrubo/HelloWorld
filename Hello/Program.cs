@@ -162,6 +162,7 @@ namespace Practice
             else
             {
                 Console.WriteLine("Invalid text");
+
             }
 
             #endregion
