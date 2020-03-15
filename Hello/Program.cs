@@ -146,27 +146,114 @@ namespace Practice
 
             #endregion
 
-            #region 9 Mar 2020: Take a random number as input then ask which number to detect for count. Take that number as input then show if it exists in that number.
+            #region 9 Mar 2020 - Take a random number as input then ask which number to detect for count. Take that number as input then show if it exists in that number.
 
-            Console.WriteLine("Enter text for checking:");
+            //Console.WriteLine("Enter text for checking:");
 
-            string a = Console.ReadLine();
+            //string a = Console.ReadLine();
 
-            Console.WriteLine("Enter a text to check if it exists:");
+            //Console.WriteLine("Enter a text to check if it exists:");
 
-            string b = Console.ReadLine();
+            //string b = Console.ReadLine();
 
-            if (a.Contains(b))
-            {
-                Console.WriteLine($"\t\'{b}\' exists in here.");
-            }
-            else
-            {
-                Console.WriteLine($"\t\'{b}\' doesn't exist in here.");
+            //if (a.Contains(b))
+            //{
+            //    Console.WriteLine($"\t\'{b}\' exists in here.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"\t\'{b}\' doesn't exist in here.");
 
-            }
+            //}
 
             #endregion
+
+            #region 10 Mar 2020 - Finding Vowel from a text
+
+
+            //Console.WriteLine("Enter text for checking:");
+
+            //string text = Console.ReadLine();
+
+            //string a = "a";
+            //string e = "e";
+            //string i = "i";
+            //string o = "o";
+            //string u = "u";
+
+            //if (text.Contains(a))
+            //{
+            //    Console.WriteLine($"\t\'{a}\' exists in here.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"\t\'{a}\' doesn't exist in here.");
+
+            //}
+            //if (text.Contains(e))
+            //{
+            //    Console.WriteLine($"\t\'{e}\' exists in here.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"\t\'{e}\' doesn't exist in here.");
+
+            //}
+            //if (text.Contains(i))
+            //{
+            //    Console.WriteLine($"\t\'{i}\' exists in here.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"\t\'{i}\' doesn't exist in here.");
+
+            //}
+            //if (text.Contains(o))
+            //{
+            //    Console.WriteLine($"\t\'{o}\' exists in here.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"\t\'{o}\' doesn't exist in here.");
+
+            //}
+            //if (text.Contains(u))
+            //{
+            //    Console.WriteLine($"\t\'{u}\' exists in here.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"\t\'{u}\' doesn't exist in here.");
+
+            //}
+
+            #endregion
+
+
+            string name = "John Doe";
+
+            int charPos = name.IndexOf("D");
+
+            string lastName = name.Substring(charPos);
+
+            Console.WriteLine(lastName);
+
+            Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         }
